@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="refresh" content="20">
+</script>
+
+<style>
+@font-face {
+    font-family: 'CuprumFFURegular';
+    src: url('Cuprum-webfont.eot');
+    src: url('Cuprum-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Cuprum-webfont.woff') format('woff'),
+         url('Cuprum-webfont.ttf') format('truetype'),
+         url('Cuprum-webfont.svg#CuprumFFURegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{margin:0;padding:0;}
+body
+{
+	font: 18px 'CuprumFFURegular', Arial, sans-serif;
+background:black;
+color:black;
+}
+input
+{
+	background:transparent;
+	border:solid black 1px;
+}
+#f{
+	text-align:center;
+	width:600px;
+	margin:0 auto;
+	padding:20px;
+	display: block;
+	background:white;
+	border-radius:0 0 20px 20px;
+}
+</style>
+</head>
+<body>
+	<div style="width:100%;background:white"></div>
+	<form id="f">
+		<input id="name1" placeholder="Elemento 1" type="text"/>
+		+
+		<input id="name2" placeholder="Elemento 2" type="text"/>
+		=
+		<input id="res" placeholder="Resultado" type="text"/><br/>
+		<!------------- -->
+		<div id="c">
+		</div>
+	</form>
+	
+	<script src="js/Dolar.js"></script>
+	<script src="elementos/combinaciones.js"></script>
+	<script src="creador.js"></script>
+</body>
+</html>
